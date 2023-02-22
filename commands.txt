@@ -1,0 +1,2 @@
+flask --app filename run - Runs the application
+flask --app filename run -- debug - Runs the application in debug mode, Don't run the development server or debugger in a production environment.
