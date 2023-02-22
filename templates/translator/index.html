@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block title %}
+  Hello
+{% endblock %}
+
+{% block main %}
+  {% if name %}
+  <h1>Welcome to the translator website, {{ name }}</h1>
+  {% else %}
+  <h1>Welcome to the translator website</h1>
+  {% endif %}
+{% endblock %}
